@@ -10,7 +10,7 @@ def hs(n):
     if (n < 1):
         n = None
     else:
-        count = 0
+        count = 1
         while (n != 1):
             count = count
             if (n % 2 == 0):
